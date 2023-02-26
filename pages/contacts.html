@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <link rel="stylesheet" href="../CSS/pages/contacts.css" >
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    >
+
+    <title>Учебный сайт группы</title>
+  </head>
+  <body class="page">
+    <header class="hdr">
+      <img src="../img/logo.svg" alt="Логотип сайта" >
+      <ul class="smenu">
+        <li><a href="../index.html" class="menul">Главная</a></li>
+        <li><a href="../pages/students.html" class="menul">Студенты</a></li>
+        <li><a href="./whecourse.html" class="menul">О курсе</a></li>
+        <li><a href="#" class="menul actual-link">Контакты</a></li>
+      </ul>
+      <a href="" class="login-but">Войти</a>
+
+      <div class="logpopup">
+        <h3 class="logheadup">Войти на сайт</h3>
+        <form class="logform">
+          <input
+            class="loginput"
+            name="login"
+            type="text"
+            placeholder="Логин"
+            required
+          /><br /><br /><br /><br />
+          <input
+            class="passinput"
+            name="password"
+            type="text"
+            placeholder="Пароль"
+            required
+          />
+          <button class="logbutton" type="submit">Войти</button>
+        </form>
+      </div>
+    </header>
+
+    <main class="content">
+      <h1 class="txt">Как нас найти 🗺️️</h1>
+
+      <div style="position: relative; overflow: hidden">
+        <a
+          href="https://yandex.ru/maps/10738/lubercy/?utm_medium=mapframe&utm_source=maps"
+          style="color: #eee; font-size: 12px; position: absolute; top: 0px"
+          >Люберцы</a
+        ><a
+          href="https://yandex.ru/maps/10738/lubercy/?from=mapframe&ll=37.873312%2C55.675905&mode=whatshere&utm_medium=mapframe&utm_source=maps&whatshere%5Bpoint%5D=37.867822%2C55.673053&whatshere%5Bzoom%5D=16&z=17"
+          style="color: #eee; font-size: 12px; position: absolute; top: 14px"
+          >Улица Авиаторов, 10 — Яндекс Карты</a
+        ><iframe
+          src="https://yandex.ru/map-widget/v1/?from=mapframe&ll=37.873312%2C55.675905&mode=whatshere&whatshere%5Bpoint%5D=37.867822%2C55.673053&whatshere%5Bzoom%5D=16&z=17"
+          width="1268"
+          height="370"
+          style="position: relative"
+        ></iframe>
+        <p class="paragraf-main">Наши контакты</p>
+        <p class="paragraf">Адрес: ул. Авиаторов, 10, 115-й квартал, Люберцы</p>
+        <p class="paragraf"><u>Тел: +7 (495) 559-47-34</u></p>
+      </div>
+    </main>
+
+    <footer class="foot">
+      <p class="dog">2022 &copy; <a href="" class="dog2">учебный центр</a></p>
+    </footer>
+  </body>
+  <script src="../JS/popup.js"></script>
+</html>
